@@ -34,26 +34,29 @@
  
 #Задача 4
  
-# x = int(input('Введите номер четверти: '))
- 
-# if(x == 1):
-#     print("x > 0, y > 0")
-# elif(x == 2):
-#     print("x < 0, y > 0")
-# elif(x == 2):
-#     print("x < 0, y < 0")
-# else:
-#     print("x > 0, y < 0")
+x = int(input('Введите номер четверти: '))
+
+if(x < 1 or x > 4):
+    print("Это не четверть")
+else:
+    if(x == 1):
+        print("x > 0, y > 0")
+    elif(x == 2):
+        print("x < 0, y > 0")
+    elif(x == 4):
+        print("x < 0, y < 0")
+    else:
+        print("x > 0, y < 0")
  
 #Задача 5
-import math
+# import math
  
-x1 = int(input('Введите x первой точки: '))
-y1 = int(input('Введите y первой точки: '))
+# x1 = int(input('Введите x первой точки: '))
+# y1 = int(input('Введите y первой точки: '))
  
-x2 = int(input('Введите x второй точки: '))
-y2 = int(input('Введите y второй точки: '))
+# x2 = int(input('Введите x второй точки: '))
+# y2 = int(input('Введите y второй точки: '))
  
-AB = math.sqrt((x2 - x1)*(x2 - x1) + (y2 - y1)*(y2 - y1))
-print(round(AB, 2))
+# AB = math.sqrt((x2 - x1)*(x2 - x1) + (y2 - y1)*(y2 - y1))
+# print(round(AB, 2))
 
