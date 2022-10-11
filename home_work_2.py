@@ -1,16 +1,17 @@
+
 # Задача 1
 
-# N = float(input('Введите число N: '))
-# N = str(N)
+N = float(input('Введите число N: '))
+N = str(N)
 
-# summ = 0
-# Num = 0
-# for i in range(len(N)):
-#     if(N[i:i+1].isnumeric()):
-#         Num = int(N[i:i+1])
-#         if Num > 0:
-#             summ = summ + Num
-# print(summ)
+summ = 0
+Num = 0
+for i in range(len(N)):
+    if(N[i:i+1].isnumeric()):
+        Num = int(N[i:i+1])
+        if Num > 0:
+            summ = summ + Num
+print(summ)
 
 
 # Задача 2
