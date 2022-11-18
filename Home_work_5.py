@@ -117,7 +117,7 @@ def rle_decod(src):
     return new_string
 
 
-string = "333222111145tttttt4444"
+string = "3333333333333333322222222222222222111145tttttt4444"
 str_list = list(string)
 print(string)
 
