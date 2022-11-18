@@ -59,5 +59,14 @@ list2 = GenArr(N)
 print(list2)
 
 list_zip = zip(list1, list2)
+
 for i in list_zip:
-    print(i)
+    print(i, end=" ")
+
+list3 = []
+for i in list_zip:
+    list3.append(i[0])
+    list3.append(i[1])
+    #print(i, end=" ")
+
+print(list3)
